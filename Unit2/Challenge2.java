@@ -1,3 +1,7 @@
+//Andy Dell'Orfano
+//Challenge 2
+//10/22/24
+
 package Unit2;
 import java.util.Scanner;
 public class Challenge2 {
