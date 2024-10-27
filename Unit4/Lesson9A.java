@@ -1,3 +1,5 @@
+//Andy Dell'Orfano
+//Hw9 Part A
 package Unit4;
 import java.util.Scanner;
 public class Lesson9A {
