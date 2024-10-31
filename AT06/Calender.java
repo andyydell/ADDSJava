@@ -86,7 +86,7 @@ public class Calender {
                     System.out.print("  " + i + "*");
                 }
                 i++;
-            }if (i == now +1){
+            }if (i == now +1 && i <= lastDay){
                 if (i < 1){
                     System.out.print("    ");
                 } else if (i ==1){
@@ -218,7 +218,7 @@ public class Calender {
                     System.out.print("  " + i + "*");
                 }
                 i++;
-            }if (i == now +1){
+            }if (i == now +1 && i < lastDay){
                 if (i < 1){
                     System.out.print("    ");
                 } else if (i ==1){
@@ -250,7 +250,7 @@ public class Calender {
                     System.out.print(" " + i);
                 }
                 i++;
-            }while (i<= lastDay){
+            }while (i <= lastDay){
                 if (i < 1){
                     System.out.print("    ");
                 } else if (i ==1){
@@ -350,7 +350,7 @@ public class Calender {
                     System.out.print("  " + i + "*");
                 }
                 i++;
-            }if (i == now +1){
+            }if (i == now +1 && i <= lastDay){
                 if (i < 1){
                     System.out.print("    ");
                 } else if (i ==1){
@@ -482,7 +482,7 @@ public class Calender {
                     System.out.print("  " + i + "*");
                 }
                 i++;
-            }if (i == now +1){
+            }if (i == now +1 && i <= lastDay){
                 if (i < 1){
                     System.out.print("    ");
                 } else if (i ==1){
@@ -624,7 +624,7 @@ public class Calender {
                     System.out.print("  " + i + "*");
                 }
                 i++;
-            }if (i == now +1){
+            }if (i == now +1 && i <= lastDay){
                 if (i < 1){
                     System.out.print("    ");
                 } else if (i ==1){
@@ -766,7 +766,7 @@ public class Calender {
                     System.out.print("  " + i + "*");
                 }
                 i++;
-            }if (i == now +1){
+            }if (i == now +1 && i <= lastDay){
                 if (i < 1){
                     System.out.print("    ");
                 } else if (i ==1){
@@ -904,7 +904,7 @@ public class Calender {
                     System.out.print("  " + i + "*");
                 }
                 i++;
-            }if (i == now +1){
+            }if (i == now +1 && i <= lastDay){
                 if (i < 1){
                     System.out.print("    ");
                 } else if (i ==1){
