@@ -8,7 +8,7 @@ public class PracticalB {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Enter 3 different integers: ");
+        System.out.print("Enter 3 integers: ");
         int first = in.nextInt();
         int second = in.nextInt();
         int third = in.nextInt();
