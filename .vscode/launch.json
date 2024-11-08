@@ -1,0 +1,189 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PracticalB",
+            "request": "launch",
+            "mainClass": "Test34.PracticalB",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "PracticalA",
+            "request": "launch",
+            "mainClass": "Test34.PracticalA",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "SixDie",
+            "request": "launch",
+            "mainClass": "Unit4.SixDie",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "ReviewSheet",
+            "request": "launch",
+            "mainClass": "InClass.ReviewSheet",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "DimmibleLight",
+            "request": "launch",
+            "mainClass": "AT05.DimmibleLight",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Problem1",
+            "request": "launch",
+            "mainClass": "AT05.Problem1",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Calender",
+            "request": "launch",
+            "mainClass": "AT06.Calender",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "InClass.App",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Halloween",
+            "request": "launch",
+            "mainClass": "InClass.Halloween",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Challenge1",
+            "request": "launch",
+            "mainClass": "Unit2.Challenge1",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Challenge2",
+            "request": "launch",
+            "mainClass": "Unit2.Challenge2",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "DoLoopClasswork",
+            "request": "launch",
+            "mainClass": "Unit4.DoLoopClasswork",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Lesson10a",
+            "request": "launch",
+            "mainClass": "Unit4.Lesson10a",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Lesson10b",
+            "request": "launch",
+            "mainClass": "Unit4.Lesson10b",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Lesson10c",
+            "request": "launch",
+            "mainClass": "Unit4.Lesson10c",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Lesson10d",
+            "request": "launch",
+            "mainClass": "Unit4.Lesson10d",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Lesson8A",
+            "request": "launch",
+            "mainClass": "Unit4.Lesson8A",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Lesson8B",
+            "request": "launch",
+            "mainClass": "Unit4.Lesson8B",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Lesson9A",
+            "request": "launch",
+            "mainClass": "Unit4.Lesson9A",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Lesson9C",
+            "request": "launch",
+            "mainClass": "Unit4.Lesson9C",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Lesson9b",
+            "request": "launch",
+            "mainClass": "Unit4.Lesson9b",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Lesson9d",
+            "request": "launch",
+            "mainClass": "Unit4.Lesson9d",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Lesson11a",
+            "request": "launch",
+            "mainClass": "Unit5.Lesson11a",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Lesson11b",
+            "request": "launch",
+            "mainClass": "Unit5.Lesson11b",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Lesson11c",
+            "request": "launch",
+            "mainClass": "Unit5.Lesson11c",
+            "projectName": "AndyDellDSJava_662f31ea"
+        }
+    ]
+}

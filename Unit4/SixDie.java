@@ -7,7 +7,10 @@ package Unit4;
 import java.util.Scanner;
 import java.util.Random;
 
-class SixDie {
+public class SixDie {
+    public SixDie(){
+        result = 0;
+    }
     Random rng = new Random();
     public int rrr;
     public SixDie die;
@@ -20,8 +23,7 @@ class SixDie {
     public int view() {
         return result;
     }
-}
-public class Lesson9d {
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         SixDie die = new SixDie();
