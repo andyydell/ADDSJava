@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Plane",
+            "request": "launch",
+            "mainClass": "AT07.Plane",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Check",
+            "request": "launch",
+            "mainClass": "InClass.Check",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "PracticalB",
             "request": "launch",
             "mainClass": "Test34.PracticalB",
