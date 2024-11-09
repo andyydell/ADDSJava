@@ -1,6 +1,6 @@
 //Andy Dell'Orfano
 //Hw 9 D
-package Unit4;
+package AT07;
 //Methods:
 // An object could get the number from the die and store that number
 // An object could influence the way that the die generates values

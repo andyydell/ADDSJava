@@ -1,3 +1,7 @@
+//Andy Dell'Orfano
+//11/8/24
+//AT07 HW
+
 package AT07;
 import java.util.Scanner;
 public class Plane {
