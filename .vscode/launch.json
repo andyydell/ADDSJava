@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Card",
+            "request": "launch",
+            "mainClass": "Project.Card",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "Plane",
             "request": "launch",
             "mainClass": "AT07.Plane",
