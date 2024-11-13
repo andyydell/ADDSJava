@@ -1,7 +1,5 @@
 //Andy Dell'Orfano
 //AT Project
-
-package Project;
 import java.util.Scanner;
 import java.util.Random;
 enum Suit {SPADE, HEART, CLUB, DIAMOND}
@@ -99,13 +97,13 @@ public class Card {
     }
     public char returnSuit(){
          if (suit == Suit.CLUB){
-            stringSuit = '\u2663';
+            stringSuit = 'C';
         } else if (suit == Suit.HEART){
-            stringSuit = '\u2661';
+            stringSuit = 'H';
         }else if (suit == Suit.SPADE){
-            stringSuit = '\u2660';
+            stringSuit = 'S';
         } else {
-            stringSuit = '\u2662';
+            stringSuit = 'D';
         } 
         return stringSuit;
     }

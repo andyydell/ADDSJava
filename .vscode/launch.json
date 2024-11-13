@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Card",
             "request": "launch",
+            "mainClass": "Card",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Project.Test",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Card",
+            "request": "launch",
             "mainClass": "Project.Card",
             "projectName": "AndyDellDSJava_662f31ea"
         },
