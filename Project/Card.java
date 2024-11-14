@@ -97,13 +97,13 @@ public class Card {
     }
     public char returnSuit(){
          if (suit == Suit.CLUB){
-            stringSuit = 'C';
+            stringSuit = '\u2663';
         } else if (suit == Suit.HEART){
-            stringSuit = 'H';
+            stringSuit = '\u2661';
         }else if (suit == Suit.SPADE){
-            stringSuit = 'S';
+            stringSuit = '\u2660';
         } else {
-            stringSuit = 'D';
+            stringSuit = '\u2662';
         } 
         return stringSuit;
     }
