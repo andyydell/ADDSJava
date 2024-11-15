@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hw12c",
+            "request": "launch",
+            "mainClass": "Lesson12.hw12c",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "hw12B",
+            "request": "launch",
+            "mainClass": "Lesson12.hw12B",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "Card",
             "request": "launch",
             "mainClass": "Card",
