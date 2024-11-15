@@ -9,21 +9,24 @@ public class Hw13C {
      * Change the following method to customize
      * what is drawn in the JFrame.
      */
+    
     public static void draw(Graphics g) {
-         g.setColor(Color.PINK);
-         g.fillRect(0, 0, 400, 400);
-         g.setColor(Color.BLACK);
-         double theta = 0;
-         double r= Math.cos(2*theta);
-        double x = r*Math.cos(theta);
-        double y = r*Math.sin(theta);
-         int plotX= (int)x;
-        int plotY= (int)y;
-         while (theta < 2*Math.PI){
-            
-            g.fillOval(plotX, plotY, 25, 25);
-            theta = theta +(1/(2*Math.PI));
-         }
+        g.setColor(Color.PINK);
+        g.fillRect(0, 0, 400, 400);
+        g.setColor(Color.BLACK);
+        double theta = 0;
+        int steps = 100000;
+        double scale = 150;
+                
+        while (theta <= 2*Math.PI){
+            double r= Math.cos(2*theta);
+            double x = scale*r*Math.cos(theta);
+            double y = scale*r*Math.sin(theta);
+            int plotX= 200+ (int)x;
+            int plotY= 200 +(int)y;
+            g.fillOval(plotX, plotY, 1, 1);
+            theta = theta + (2*Math.PI)/steps;
+        }
         
     }
 
