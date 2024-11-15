@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Hw13B",
+            "request": "launch",
+            "mainClass": "Hw13.Hw13B",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "Hw13A",
             "request": "launch",
             "mainClass": "InClass.Hw13A",
