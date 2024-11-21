@@ -1,3 +1,6 @@
+//Andy Dell'Orfano
+//Hw 13C
+
 package Hw13;
 
 import java.awt.Color;
