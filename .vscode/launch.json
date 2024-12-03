@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Hw14B",
+            "request": "launch",
+            "mainClass": "Lesson14.Hw14B",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Hw14A",
+            "request": "launch",
+            "mainClass": "Lesson14.Hw14A",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Hw14b",
+            "request": "launch",
+            "mainClass": "Lesson14.Hw14b",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "InClass.Array",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "InClass.Arrays",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "Hw13C",
             "request": "launch",
             "mainClass": "Hw13.Hw13C",
