@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Hw17b",
+            "request": "launch",
+            "mainClass": "Lesson17.Hw17b",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "Hw16b",
             "request": "launch",
             "mainClass": "Lesson16.Hw16b",
