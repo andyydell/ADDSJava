@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Hw18d",
+            "request": "launch",
+            "mainClass": "Lesson18.Hw18d",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Hw18c",
+            "request": "launch",
+            "mainClass": "Lesson18.Hw18c",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Hw18b",
+            "request": "launch",
+            "mainClass": "Lesson18.Hw18b",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Hw18a",
+            "request": "launch",
+            "mainClass": "Lesson18.Hw18a",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "Hw17b",
             "request": "launch",
             "mainClass": "Lesson17.Hw17b",
