@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HwA",
+            "request": "launch",
+            "mainClass": "AT08.HwA",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Blackjack",
+            "request": "launch",
+            "mainClass": "Blackjack.Blackjack",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "Hw18d",
             "request": "launch",
             "mainClass": "Lesson18.Hw18d",
