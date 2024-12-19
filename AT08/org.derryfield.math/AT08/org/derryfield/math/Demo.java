@@ -8,8 +8,8 @@ public class Demo {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a radius for your sphere: ");
         double radius = in.nextDouble();
-        double vol = sphereVol(radius);
-        double area = sphereSurfArea(radius);
+        double vol = Geometry.sphereVol(radius);
+        double area = Geometry.sphereSurfArea(radius);
 
         System.out.println("The volume is " + vol);
         System.out.println("The surface area is "+ area);
