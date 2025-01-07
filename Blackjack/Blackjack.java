@@ -1,7 +1,7 @@
 //Andy Dell'Orfano
 //Blackjack
 package Blackjack;
-import Card;
+import Project.Card;
 public class Blackjack {
     public static void main(String[] args) {
         

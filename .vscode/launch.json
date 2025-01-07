@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HwB",
+            "request": "launch",
+            "mainClass": "Hw19.HwB",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "HwA",
+            "request": "launch",
+            "mainClass": "Hw19.HwA",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Text",
+            "request": "launch",
+            "mainClass": "InClass.Text",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "Demo",
             "request": "launch",
             "mainClass": "org.derryfield.math.Demo",

@@ -1,5 +1,6 @@
 //Andy Dell'Orfano
 //AT Project
+package Project;
 import java.util.Scanner;
 import java.util.Random;
 enum Suit {SPADE, HEART, CLUB, DIAMOND}
