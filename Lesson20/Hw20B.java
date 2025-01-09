@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 
 public class Hw20B {
     public static void main(String[] args) throws FileNotFoundException {
-        File inputFile = new File("characters.txt");
+        File inputFile = new File("Lesson20/characters.txt");
         Scanner in = new Scanner(inputFile);
             in.useDelimiter("");
        int count = 0;

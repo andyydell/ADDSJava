@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Hw20A",
+            "request": "launch",
+            "mainClass": "Hw20A",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Hw20B",
+            "request": "launch",
+            "mainClass": "Hw20B",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "HwB",
             "request": "launch",
             "mainClass": "Hw19.HwB",

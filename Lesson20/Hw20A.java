@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 
 public class Hw20A {
     public static void main(String[] args) throws FileNotFoundException {
-        File inputFile = new File("consumerData.txt");
+        File inputFile = new File("Lesson20/consumerData.txt");
         Scanner in = new Scanner(inputFile);
          in.useDelimiter("[,\\s\\n]+");
         System.out.println("---------------------------------------------");
