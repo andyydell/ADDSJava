@@ -12,7 +12,7 @@ public class Card {
     private int randomSuit;
     private int randomRank;
     private char stringSuit;
-    private char stringRank;
+    private String stringRank;
     private String face;
     public Card(){
         randomSuit = rng.nextInt(4);
@@ -108,33 +108,33 @@ public class Card {
         } 
         return stringSuit;
     }
-    public char returnRank(){
+    public String returnRank(){
         if (rank == Rank.TWO){
-            stringRank = '2';
+            stringRank = "2";
         } else if (rank == Rank.SIX){
-            stringRank = '6';
+            stringRank = "6";
         }else if (rank == Rank.THREE){
-            stringRank = '3';
+            stringRank = "3";
         }else if (rank == Rank.FOUR){
-            stringRank = '4';
+            stringRank = "4";
         }else if (rank == Rank.FIVE){
-            stringRank = '5';
+            stringRank = "5";
         }else if (rank == Rank.SEVEN){
-            stringRank = '7';
+            stringRank = "7";
         }else if (rank == Rank.EIGHT){
-            stringRank = '8';
+            stringRank = "8";
         }else if (rank == Rank.NINE){
-            stringRank = '9';
+            stringRank = "9";
         }else if (rank == Rank.TEN){
-            stringRank = 'T';
+            stringRank = "T";
         }else if (rank == Rank.JACK){
-            stringRank = 'J';
+            stringRank = "J";
         }else if (rank == Rank.QUEEN){
-            stringRank = 'Q';
+            stringRank = "Q";
         } else if (rank == Rank.KING){
-            stringRank = 'K';
+            stringRank = "K";
         }else {
-            stringRank = 'A';
+            stringRank = "A";
         }
         return stringRank;
     }

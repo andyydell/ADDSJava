@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Hw20A",
             "request": "launch",
+            "mainClass": "Lesson20.Hw20A",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Hw20A",
+            "request": "launch",
             "mainClass": "Hw20A",
             "projectName": "AndyDellDSJava_662f31ea"
         },
