@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Hw21B",
+            "request": "launch",
+            "mainClass": "Lesson21.Hw21B",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Hw21A",
+            "request": "launch",
+            "mainClass": "Lesson21.Hw21A",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "Hw20A",
             "request": "launch",
             "mainClass": "Lesson20.Hw20A",
