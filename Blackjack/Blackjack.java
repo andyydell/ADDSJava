@@ -1,7 +1,7 @@
 //Andy Dell'Orfano
 //Blackjack
 package Blackjack;
-import Project.Card;
+import Blackjack.Project.Card;
 import java.util.Scanner;
 import java.util.ArrayList;
 public class Blackjack {
