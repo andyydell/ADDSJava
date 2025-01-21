@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Practical2",
+            "request": "launch",
+            "mainClass": "Test.Practical2",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Practival1",
+            "request": "launch",
+            "mainClass": "Test.Practival1",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "Hw23B",
             "request": "launch",
             "mainClass": "Lesson23.Hw23B",
