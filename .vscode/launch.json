@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Hw26C",
+            "request": "launch",
+            "mainClass": "Hw26.Hw26C",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Hw26B",
+            "request": "launch",
+            "mainClass": "Hw26.Hw26B",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Hw26A",
+            "request": "launch",
+            "mainClass": "Hw26.Hw26A",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "Car",
             "request": "launch",
             "mainClass": "Hw25.Car",
