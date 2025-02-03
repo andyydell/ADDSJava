@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Mow",
+            "request": "launch",
+            "mainClass": "MowerProject.Mow",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "Hw26C",
             "request": "launch",
             "mainClass": "Hw26.Hw26C",
