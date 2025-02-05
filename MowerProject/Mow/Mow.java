@@ -1,8 +1,8 @@
 //Andy Dell'Orfano
 //2/2/25
-package MowerProject;
+package MowerProject.Mow;
 import java.util.Scanner;
-import MowerProject.Yard;
+import MowerProject.Mow.Yard;
 public class Mow {
     public static void clearScreen() {
         System.out.print("\033[H\033[2J");

@@ -1,6 +1,6 @@
 //Andy Dell'Orfano
 //1/30/25
-package MowerProject;
+package MowerProject.Mow;
 import java.util.Scanner;
 import java.util.Arrays;
 public class Yard {
