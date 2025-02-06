@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Hw19A",
+            "request": "launch",
+            "mainClass": "Lesson29.Hw19A",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "GearedBycicle",
+            "request": "launch",
+            "mainClass": "Lesson29.GearedBycicle",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Lesson29.Demo",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "Mow",
             "request": "launch",
             "mainClass": "MowerProject.Mow",
