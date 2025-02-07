@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EmployeeDemo",
+            "request": "launch",
+            "mainClass": "Lesson29.EmployeeDemo",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "Mower",
             "request": "launch",
             "mainClass": "MowerProject.Mow.Mower",

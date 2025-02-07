@@ -4,9 +4,6 @@ public class Employee {
     private String name;
     private double salary;
 
-    /*
-     * Constructor.
-     */
     public Employee(String name, double salary) {
         this.name = name;
         this.salary = salary;
@@ -29,7 +26,6 @@ public class Employee {
     }
 
     public double getAnnualIncome() {
-        // Employees only get an annual salary.
         return getSalary();
     }
 }

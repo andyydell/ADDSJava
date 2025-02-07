@@ -6,8 +6,7 @@ public class Manager extends Employee{
         super(name, salary);
         this.bonus = bonus;
     }
-    double compensation = getSalary() + bonus;
-    public double getAnnualIncome(){
-        return compensation;
+    public double getBonus(){
+        return bonus;
     }
 }
