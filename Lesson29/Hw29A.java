@@ -3,12 +3,7 @@
 package Lesson29;
 
 public class Hw29A extends GearedBycicle{
-    public void brake(){
-        int speed = getSpeed();
-        int brakeAmnt = getGear()+1;
-        int net = speed-brakeAmnt;
-        setSpeed(net);
-    }
+    
     public static void main(String[] args) {
         Bicycle b = new Bicycle();
         Hw29A g = new Hw29A();

@@ -40,6 +40,12 @@ public class GearedBycicle extends Bicycle{
         System.out.printf("Gear = %02d%n", getGear());
         super.display();
     }
+    public void brake(){
+        int speed = getSpeed();
+        int brakeAmnt = getGear()+1;
+        int net = speed-brakeAmnt;
+        setSpeed(net);
+    }
     public static void main(String[] args) {
         GearedBycicle g = new GearedBycicle();
         System.out.println(g.getSpeed());

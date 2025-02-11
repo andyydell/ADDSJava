@@ -1,14 +1,17 @@
 package MowerProject.Mow;
 import MowerProject.Mow.Yard;
 import java.util.Scanner;
+import java.util.Random;
 public class Mower{
-    private int vertPos = 0;
-    private int horPos = 0;
-    public Mower(int vert, int hor){
+    private int vertPos;
+    private int horPos;
+    private int direction;
+    public Mower(int vert, int hor, int dir){
         vertPos = vert;
         horPos = hor;
+        direction = dir;
     }
-    private int direction = 1;
+    
     public void setPosition(int row, int column){
         vertPos = row;
         horPos = column;
@@ -96,6 +99,71 @@ public class Mower{
            System.err.println("InterruptedException received!");
        }
    }
+   public static int positionMowerHeight(Yard yard){
+        Random rng= new Random();
+        int co = rng.nextInt(2);
+        if (co == 1){
+            return yard.getHeight();
+        } else {
+            return 1;
+        }
+   }
+   public static int positionMowerWidth(Yard yard){
+        Random rng= new Random();
+        int co = rng.nextInt(2);
+        if (co == 1){
+            return yard.getWidth();
+        } else {
+            return 1;
+        }
+   }
+   public static int positionMowerDirection(){
+        Random rng = new Random();
+        int dir = rng.nextInt(4);
+        return dir;
+   }
+   private void moveTo(int row, int col, Yard yard){
+        while (vertPos != row || horPos != col) {
+        if (vertPos < row) { 
+            setDirection(2); 
+            move(yard);
+        } else if (vertPos > row) { 
+            setDirection(0); 
+            move(yard);
+        } else if (horPos < col) { 
+            setDirection(1); 
+            move(yard);
+        } else if (horPos > col) { 
+            setDirection(3);
+            move(yard);
+        }
+    }
+   }
+   public boolean updateMower(Yard yard){
+        for (int i = 1; i <= yard.getHeight(); i++) {
+        for (int j = 1; j <= yard.getWidth(); j++) {
+            if (yard.getValue(i, j) == '+') { 
+                if (vertPos < i) { 
+                    setDirection(2); 
+                    move(yard);
+                } else if (vertPos > i) { 
+                    setDirection(0); 
+                    move(yard);
+                } else if (horPos < j) { 
+                    setDirection(1); 
+                    move(yard);
+                } else if (horPos > j) { 
+                    setDirection(3); 
+                    move(yard);
+                }
+                
+                return true; 
+            }
+        }
+    }
+    return false; 
+   }
+
 
     public static void main(String[] args) {
         clearScreen();
@@ -104,9 +172,22 @@ public class Mower{
         int height=in.nextInt();
         int width = in.nextInt();
         Yard yard = new Yard(height, width);
-        Mower mower = new Mower(1, 1);
-        mower.getDirection();
-        double height2;
+        int randomRow = positionMowerHeight(yard);
+        int randomCol = positionMowerWidth(yard);
+        int randomDir = positionMowerDirection();
+        Mower mower = new Mower(randomRow, randomCol, randomDir);
+        yard.printLawn(mower);
+        mower.mow(yard);
+        delay(1000);
+        while (mower.updateMower(yard)) {  
+            Mower.clearScreen();           
+            mower.mow(yard);              
+            yard.printLawn(mower);         
+            Mower.delay(500);              
+        } 
+            
+        //Below here is for part B i.e. less efficient
+        /* 
         if (height%2 == 0){
             height2=height/2;
         } else {
@@ -165,5 +246,6 @@ public class Mower{
         }
 
     }
+        */
 }
 }
