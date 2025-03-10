@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Demo",
             "request": "launch",
+            "mainClass": "AO2B.AO2B.Demo",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
             "mainClass": "AO2.Demo",
             "projectName": "AndyDellDSJava_662f31ea"
         },
