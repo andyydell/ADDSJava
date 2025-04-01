@@ -1,0 +1,11 @@
+Part A:
+Her email sends data to a network using her unique identifier. 
+Then, the network uses the TCP method to transmit the data. 
+Then, the reciever will check the unique number to ensure that the file has not been corrupted before accepting the data. 
+Finally, the data will be presented to the reciever.
+
+
+Part B:
+When Jerry launches the game, the network uses the UDP method because it has lower latency which is essential for a video game.
+Then Jerry's computer checks the identifier to ensure the file is not corrupted.
+His laptop then recieves the information and uses the info to run the game.
