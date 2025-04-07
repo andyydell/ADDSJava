@@ -12,12 +12,14 @@ public class EchoClient {
         String host = args[0];
         int port = Integer.parseInt(args[1]);
 
-        try (Socket socket = new Socket(host, port);
-             BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
-             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
-             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
-
-            System.out.println("Connected to Echo Server. Type messages (type 'exit' to quit):");
+        try{
+            Socket socket = new Socket(host, port);
+            Socket echoSocket = new Socket(host, port);
+            PrintWriter out = new PrintWriter(echoSocket.getOutputStream(), true);
+            BufferedReader in = new BufferedReader(new InputStreamReader(echoSocket.getInputStream()));
+            BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in)); {
+            System.out.println(host+" "+port);
+            System.out.println("Type 'q' to quit: ");
 
             String input;
             while ((input = userInput.readLine()) != null) {
@@ -25,10 +27,13 @@ public class EchoClient {
                     break;
                 }
                 out.println(input);
-                System.out.println("Server replied: " + in.readLine());
-            }
-        } catch (IOException e) {
+                System.out.println("Server replied: " + in.readLine());}}}
+            
+         catch (IOException e) {
             e.printStackTrace();
+            System.exit(1);
         }
     }
 }
+    
+
