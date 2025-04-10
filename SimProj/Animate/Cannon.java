@@ -23,26 +23,47 @@ public class Cannon {
     private int y;
     private int angle; 
     private int velo;
+    private SoundEffects cannonSound;
+    private SoundEffects wheelSound;
+
+    private Ball ball;
+     
     public Cannon() {
         try {
             File cannonFile = new File("SimProj/Animate/Media/sm_cannon.png");
+            
             cannonImage = ImageIO.read(cannonFile);
         } catch (Exception e){
             System.err.println(e.getMessage());
         }
 
+        try {
+            cannonSound = new SoundEffects("SimProj/Animate/Media/cannon.wav");
+            cannonSound.open();
+        } catch (Exception e){
+            System.err.println(e.getMessage());
+        }
+        try {
+            wheelSound = new SoundEffects("SimProj/Animate/Media/wheel.wav");
+            wheelSound.open();
+        } catch (Exception e){
+            System.err.println(e.getMessage());
+        }
         x = 60 - XANGLE;
         y = 720 - 60 - YANGLE;
         angle = -45;
-        velo = 0;  
+        velo = 100;  
+    }
+
+    public void setBall(Ball ball){
+        this.ball = ball;
     }
 
     public void playFireSound() {
          try {
-            SoundEffects cannonSound = new SoundEffects("SimProj/Animate/Media/cannon.wav");
-            cannonSound.open();
-            cannonSound.play();
-            cannonSound.close();
+            if(cannonSound != null){
+                cannonSound.play();
+            }
 
         } catch (Exception e){
             System.err.println(e.getMessage());
@@ -51,10 +72,7 @@ public class Cannon {
 
     public void playWheelSound() {
          try {
-            SoundEffects cannonSound = new SoundEffects("SimProj/Animate/Media/wheel.wav");
-            cannonSound.open();
-            cannonSound.play();
-            cannonSound.close();
+            wheelSound.play();
         } catch (Exception e){
             System.err.println(e.getMessage());
         }
@@ -81,8 +99,13 @@ public class Cannon {
     }
 
     public void fire() {
-        
         playFireSound();
+        if (ball.getStatus() == Ball.STATUS.AIR) return;
+        double radians = Math.toRadians(angle);
+        double xVelo = velo * Math.cos(radians);
+        double yVelo = -velo * Math.sin(radians); 
+
+        ball.launch(x + CANNONWIDTH / 2.0, y - YANGLE, xVelo, yVelo);
     }
 
     public double getX() {
@@ -135,7 +158,7 @@ public class Cannon {
         graphics.fillOval(cX, cY, 5 * 2, 5 * 2);
         
     }
-
+    
     
     
    } 

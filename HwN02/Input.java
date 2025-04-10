@@ -1,4 +1,4 @@
-package HwN02;
+//package HwN02;
 public class Input {
      public static void main(String[] args) {
         System.out.printf("%d arguments provided.%n", args.length);
