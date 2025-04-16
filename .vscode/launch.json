@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HwB",
+            "request": "launch",
+            "mainClass": "N03.HwB",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Employee",
+            "request": "launch",
+            "mainClass": "N03.Employee",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "Cannon",
             "request": "launch",
             "mainClass": "Cannon",
