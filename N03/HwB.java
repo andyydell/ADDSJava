@@ -21,6 +21,7 @@ public class HwB {
                 String firstName = dis.readUTF();
                 String lastName = dis.readUTF();
                 double salary = dis.readDouble();
+                
 
                 Employee emp = new Employee(firstName, lastName, id, salary);
                 employees.add(emp);
