@@ -87,23 +87,29 @@ public class Employee {
                 last = in.nextLine();
                 System.out.println();
                 System.out.print("Enter employee salary: ");
-                sal = in.nextDouble();
-                System.out.println();
+                String token = in.nextLine();
+                sal = 0;
+                try {
+                    sal = Double.parseDouble(token);
+                }catch(NumberFormatException e){
+                    System.err.println("Error");
+                }
             }
             System.out.println();
             Employee.lastIDUsed++;
-            Employee e = new Employee(last, first, Employee.lastIDUsed, sal);
+            Employee e = new Employee(first, last, Employee.lastIDUsed, sal);
             employees.add(e);
         }
         for (int i = 0; i <employees.size(); i++){
             System.out.println(employees.get(i).getFirstName());
         }
-            String filepath = "data.bin";
+            String filepath = "N03/data.bin";
         try (
             FileOutputStream fileOutputStream = new FileOutputStream(filepath);
             DataOutputStream dataOutputStream = new DataOutputStream(fileOutputStream)) {
            // save the last ID used info.
            dataOutputStream.writeInt(Employee.lastIDUsed);
+           dataOutputStream.writeInt(employees.size());
            for (Employee e : employees) {
                e.writeToStream(dataOutputStream);
            }

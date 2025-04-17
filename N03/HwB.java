@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class HwB {
     public static void main(String[] args) {
-        String filePath = (args.length > 0) ? args[0] : "data.bin";
+        String filePath = (args.length > 0) ? args[0] : "N03/data.bin";
         ArrayList<Employee> employees = new ArrayList<>();
 
         try (DataInputStream dis = new DataInputStream(new FileInputStream(filePath))) {
@@ -18,9 +18,10 @@ public class HwB {
 
             for (int i = 0; i < employeeCount; i++) {
                 int id = dis.readInt();
+                double salary = dis.readDouble();
                 String firstName = dis.readUTF();
                 String lastName = dis.readUTF();
-                double salary = dis.readDouble();
+                
                 
 
                 Employee emp = new Employee(firstName, lastName, id, salary);
