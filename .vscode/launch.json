@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Recursive1B",
+            "request": "launch",
+            "mainClass": "R01.Recursive1B",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
+            "name": "Recursive1A",
+            "request": "launch",
+            "mainClass": "R01.Recursive1A",
+            "projectName": "AndyDellDSJava_662f31ea"
+        },
+        {
+            "type": "java",
             "name": "HwB",
             "request": "launch",
             "mainClass": "N03.HwB",
